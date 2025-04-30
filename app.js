@@ -1,4 +1,4 @@
-// script.js
+
 const fetchLiveScores = async () => {
     try {
         const response = await fetch('http://localhost:3000/api/live-scores');
